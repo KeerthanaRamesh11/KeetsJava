@@ -12,6 +12,8 @@ class PrintingName
         System.out.println("Enter a value:");
         int n = sc.nextInt();
         for(int i = 1; i <= 5; i++)
+        {
         System.out.println("Your Fullname is: " + fullname);
+        }
     }
 }
