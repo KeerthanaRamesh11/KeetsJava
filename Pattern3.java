@@ -5,7 +5,7 @@ class Pattern3
     {
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter a value:");
-      int n = 6;
+      int n = sc.nextInt();
       for(int i=1; i<=n; i++)
       {
         for(int j=1; j<=i; j++)
@@ -15,5 +15,4 @@ class Pattern3
         System.out.println();
       }
     }
-
   }
